@@ -1,8 +1,8 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version="0.1" encoding="utf-8"?>
 <project>
 	<!-- _________________________ Application Settings _________________________ -->
 
-	<app title="Psych Engine" file="PsychMobile1.0.4" packageName="com.shadowmario.psychengine" package="com.shadowmario.psychengine" main="Main" version="1.0.0" company="ShadowMario" />
+	<app title="AleFunkin Engine" file="AF Engine 0.1" packageName="com.alefunkin.afengine" package="com.alefunkin.afengine" main="Main" version="0.1.0" company="AleFunkin Team" />
 
 	<!--Switch Export with Unique ApplicationID and Icon-->
 	<set name="APP_ID" value="0x0100f6c013bbc000" />
@@ -28,7 +28,6 @@
 	<define name="TRANSLATIONS_ALLOWED" />
 	<define name="VIDEOS_ALLOWED" unless="32bits"/>
 	<define name="ASTC_SUPPORT" if="mobile" />
-	<define name="IRIS_DEBUG"/>
 	
 	<define name="MULTITHREADED_LOADING" /> <!-- UNCOMMENTING THIS LINE WILL ENABLE MULTITHREADED LOADING, WHICH IMPROVES LOADING TIMES, BUT APPARENTLY CAN FREEZE THE GAME ON SONG LOAD IN OLDER PCs? -->
 	<define name="SHOW_LOADING_SCREEN" />
